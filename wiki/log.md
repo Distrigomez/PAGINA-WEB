@@ -21,3 +21,9 @@ fuentes: [../AGENTS.md, ../DOCS/, ../PAGINA WEB/]
 
 - Añadido `.gitignore` en la carpeta contenedora para excluir originales privados, ZIP fuente, dependencias, temporales y secretos antes de cualquier versionado.
 - Se intentó `npm install`; quedó sin salida ni archivos creados por más de un minuto y se interrumpió. La causa no se pudo confirmar; por ello no fue posible compilar, ejecutar lint ni abrir la vista previa. Ver [[estado-del-proyecto]] y [[pendientes]].
+
+## [2026-11-09] git | conexión solicitada
+
+- Inicializado repositorio local en `main`, configurada la identidad solo en este repositorio y creado el commit `2b6e862` con la landing, la wiki y reglas de exclusión. Verificado que `DOCS/` y el ZIP original no están staged.
+- Configurado `origin` con el destino solicitado. La comprobación inicial no mostró ramas remotas. El push HTTPS quedó esperando autenticación en Git Credential Manager; se canceló sin enviar la rama. No se guardó contraseña ni token.
+- Detectados archivos nuevos bajo `PLAN-MEJORA/`; no se agregaron al commit y se excluyeron en `.gitignore` hasta revisión. Ver [[documentos-y-activos]] y [[pendientes]].

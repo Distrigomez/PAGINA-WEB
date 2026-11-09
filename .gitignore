@@ -1,6 +1,8 @@
 # Originales empresariales y exportación fuente: conservar localmente, no versionar.
 /DOCS/
 /distrigomez-salud-y-belleza.zip
+/PLAN-MEJORA/
+/24-comercializadora-distrigomez-sas-20261109T213927Z-1-001.zip
 
 # Dependencias, compilación y archivos locales.
 **/node_modules/

@@ -26,3 +26,5 @@ fuentes: [../DOCS/, ../PAGINA WEB/src/]
 - **Pendiente:** tras comprobaciones, guardar una versión Git. La identidad no está configurada; solicitar nombre y correo antes del commit y no cambiar el global.
 - **Pendiente:** averiguar si el sitio está publicado. No se realizó publicación ni acceso remoto.
 - **Pendiente:** extraer texto estructurado del PDF si se requiere búsqueda literal; se revisó visualmente el render de sus siete páginas, pero no se encontró `pdftotext` para extracción automatizada.
+- **Pendiente:** completar autenticación de GitHub con Git Credential Manager (flujo en navegador) o con un token de acceso personal introducido directamente en el prompt seguro de Git; no enviar el token por chat. Después repetir `git push -u origin main` y verificar la rama remota.
+- **Pendiente:** revisar los archivos de `PLAN-MEJORA/` y su ZIP fuente antes de integrarlos a la wiki o al repositorio; por ahora permanecen excluidos.

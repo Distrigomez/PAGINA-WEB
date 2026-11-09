@@ -21,6 +21,9 @@ fuentes: [../PAGINA WEB/package.json, ../PAGINA WEB/README.md, ../distrigomez-sa
 - **Confirmado:** Node.js v24.22.1, npm 11.19.1, pnpm 11.25.0 y Git están disponibles.
 - **Confirmado:** la aplicación declara `dev`, `build`, `preview`, `lint` y `clean` en `package.json`.
 - **Confirmado:** al iniciar no había lockfile, `node_modules/` ni repositorio Git en la carpeta del proyecto ni en la contenedora. La instalación se intentó después, quedó interrumpida y no generó lockfile ni `node_modules/`.
+- **Confirmado:** repositorio Git local creado en `main`, identidad de commit configurada solo en este repositorio y `origin` apunta a `https://github.com/Distrigomez/PAGINA-WEB.git`. El commit local inicial es `2b6e862` (`Prepara landing y wiki de Distrigomez`).
+- **Pendiente de autenticación:** no hay GitHub CLI; el Administrador de credenciales está configurado, pero el push HTTPS quedó esperando autenticación y se canceló. `origin/main` no mostraba ramas al comprobarlo; no se confirmó ninguna subida.
+- **Confirmado:** `DOCS/`, ZIP original y la carpeta/archivo `PLAN-MEJORA/` recién detectados están excluidos del repositorio. La carpeta nueva contiene documentos y ZIP sin revisar y permanece local.
 - **Bloqueado durante la instalación:** se inició `npm install`, pero no produjo salida ni creó archivos durante más de un minuto; se interrumpió. La causa no quedó confirmada (el registro npm configurado no respondió dentro de ese lapso). No hay dependencias ni `package-lock.json`. Repetir cuando npm pueda completar la instalación y luego ejecutar `npm run build` y `npm run lint` antes de arrancar la vista previa local.
 
 ## Publicación y comprobaciones
