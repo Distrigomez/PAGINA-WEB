@@ -1,0 +1,6 @@
+{
+  "name": "Distrigomez Salud y Belleza",
+  "description": "Sitio web oficial y catálogo de Comercializadora Distrigomez S.A.S. Salud y belleza, precio al alcance de todos. Venta al por mayor y al detal con pedidos por WhatsApp y programa para emprendedores.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,14 @@
+# Originales empresariales y exportación fuente: conservar localmente, no versionar.
+/DOCS/
+/distrigomez-salud-y-belleza.zip
+
+# Dependencias, compilación y archivos locales.
+**/node_modules/
+**/dist/
+**/build/
+**/coverage/
+**/.env
+**/.env.*
+!**/.env.example
+**/*.log
+/_review_pdf/
