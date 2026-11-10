@@ -49,3 +49,10 @@ fuentes: [../AGENTS.md, ../DOCS/, ../PAGINA WEB/]
 - Actualizados `Hero`, `ProductsCatalog`, detalle, destacado y lista de cotización de WhatsApp. El catálogo sigue mostrando 30 fichas porque este producto ya tenía una ficha previa.
 - Intentados `npm run build` y `npm run lint`: ambos no pudieron iniciar porque no están instalados `vite` y `tsc` (`node_modules/` no existe). La vista previa y revisión visual quedan pendientes; los otros cuatro cambios del checklist siguen sin aplicar.
 - Commit `8813674` creado con autoría local DISTRIGOMEZ y enviado a `origin/main`. El repositorio quedó sincronizado; no se publicó el sitio.
+
+## [2026-11-10] catálogo | Maxi-Loe Liss Paso 2
+
+- **Supuesto de intención:** se interpretó la imagen adjunta en continuidad con la solicitud anterior como petición de agregar este segundo producto.
+- Añadido `IMG_3219.PNG` como fuente original en `DOCS/` y como copia técnica en `PAGINA WEB/public/assets/aistudio/`; las tres copias (Downloads, DOCS y activo técnico) tienen el mismo SHA-256 `7B7231ADA644AAA0313AB46D2F2E239A24BEEDB695F95D5CB4230B4E931F090F`.
+- Añadida ficha “Maxi-Loe Liss Tratamiento Alisador Capilar Paso 2 (Kaya Profesional)” como producto 31, distinta del kit de tres pasos que ya existía. Sin ingredientes ni precio en la ficha, y sin presentación en texto de cotización mayorista. Las palabras “argán”, “aloe vera”, “aminoácidos” y “1.000 ml” siguen visibles en el arte del envase.
+- Actualizados conteos dinámicos del catálogo, navbar y cotizador para 31 productos. El punto queda pendiente de compilar y revisar visualmente; `node_modules/` no está instalado.

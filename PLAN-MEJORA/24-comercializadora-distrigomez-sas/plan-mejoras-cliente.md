@@ -107,6 +107,10 @@ Estas ideas **no están aprobadas para implementación**. Primero se revisará e
 
 - **Registro 2026-11-10 — producto autorizado:** se actualizó la ficha ya existente del catálogo y se copió la imagen exacta a `PAGINA WEB/public/assets/aistudio/IMG_3178.PNG`. Se quitó contenido no comprobado de la ficha. El peso de 500 g aún se ve impreso en la foto del envase. La verificación de compilación y visual está pendiente porque faltan dependencias (`node_modules/`).
 
+- [ ] Agregar Maxi-Loe Liss Tratamiento Alisador Capilar Paso 2 con la imagen enviada `IMG_3219.PNG`; omitir ingredientes y texto de presentación en cotizaciones mayoristas. Implementado; falta compilar y revisar visualmente. El arte adjunto muestra ingredientes y 1.000 ml.
+
+- **Registro 2026-11-10 — Maxi-Loe Liss:** se añadió una ficha nueva, distinta del kit Maxi-Loe de 3 pasos que ya existía. El original recibido se conserva en `DOCS/IMG_3219.PNG`, con copia técnica en `PAGINA WEB/public/assets/aistudio/IMG_3219.PNG`; no se añadió precio. Falta compilar y revisar visualmente.
+
 - **Decisiones pendientes:** interpretación del navbar y aprobación individual de las oportunidades A–F.
-- **Estado de implementación:** los cuatro cambios originales de la sección “Cambios solicitados por la cliente” siguen pendientes; la ficha del producto se actualizó por autorización expresa del 2026-11-10. Las oportunidades A–F siguen sujetas a verificación y aprobación.
+- **Estado de implementación:** los cuatro cambios originales de la sección “Cambios solicitados por la cliente” siguen pendientes; las fichas del decolorante y de Maxi-Loe Liss fueron añadidas o actualizadas por las solicitudes respectivas. La verificación técnica y visual queda pendiente. Las oportunidades A–F siguen sujetas a verificación y aprobación.
 - **Registro de avance:** anotar aquí fecha, punto autorizado, archivo cambiado, comprobaciones y resultado después de cada paso. Marcar `[x]` solo tras verificar.

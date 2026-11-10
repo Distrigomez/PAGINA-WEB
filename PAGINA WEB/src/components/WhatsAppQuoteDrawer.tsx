@@ -64,7 +64,7 @@ Quiero cotizar mi pedido con los siguientes datos:
 *Ciudad de despacho:* ${customerCity || 'Por definir'}
 *Modalidad:* ${typeLabel}
 
-*Productos seleccionados (30 referencias disponibles):*${orderListText}
+*Productos seleccionados (${PRODUCTS.length} referencias disponibles):*${orderListText}
 
 Quedo atento(a) a precios, disponibilidad y valor del flete. ¡Muchas gracias!`;
 

@@ -48,7 +48,7 @@ export const ProductsCatalog: React.FC<ProductsCatalogProps> = ({
           <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-[#EC0A8C] mb-2">
             <span>Catálogo Completo Oficial</span>
             <span aria-hidden="true">·</span>
-            <span>30 Productos Capilares & Belleza</span>
+            <span>{PRODUCTS.length} Productos Capilares & Belleza</span>
           </div>
           <h2 className="text-3xl sm:text-4xl font-extrabold text-[#111111] tracking-tight">
             Todos nuestros productos
@@ -110,7 +110,7 @@ export const ProductsCatalog: React.FC<ProductsCatalogProps> = ({
               type="text"
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
-              placeholder="Buscar entre los 30 productos..."
+              placeholder={`Buscar entre los ${PRODUCTS.length} productos...`}
               className="w-full pl-9 pr-4 py-2 text-xs bg-neutral-50 hover:bg-neutral-100/70 focus:bg-white border border-neutral-200 rounded-lg text-neutral-900 placeholder-neutral-400 focus:outline-none focus:ring-2 focus:ring-[#EC0A8C]/20 focus:border-[#EC0A8C] transition-all"
             />
           </div>

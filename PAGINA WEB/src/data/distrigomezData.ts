@@ -596,6 +596,19 @@ export const PRODUCTS: Product[] = [
     image: '/src/assets/images/product_shampoo_cebolla_ajo_1794079444759.jpg',
     suggestedWholesalePrice: 38000,
     suggestedRetailPrice: 65000
+  },
+  // 31
+  {
+    id: 'maxi-loe-liss-alisador-paso-2-1000ml',
+    name: 'Maxi-Loe Liss Tratamiento Alisador Capilar Paso 2 (Kaya Profesional)',
+    category: 'tratamientos',
+    categoryLabel: 'Alisado Capilar',
+    presentation: 'Botella 1.000 ml',
+    shortDesc: 'Tratamiento alisador capilar Maxi-Loe Liss, Paso 2, de Kaya Profesional.',
+    fullDesc: 'Tratamiento alisador capilar Kaya Profesional Maxi-Loe Liss, Paso 2. El envase indica que es sin formol ni amoniaco, con hidratación, liso extremo y alto brillo.',
+    benefits: [],
+    hidePresentationForWholesale: true,
+    image: '/assets/aistudio/IMG_3219.PNG'
   }
 ];
 

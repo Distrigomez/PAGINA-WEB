@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { MessageCircle, Menu, X, ShoppingBag, User, LogIn, CheckCircle2 } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
+import { PRODUCTS } from '../data/distrigomezData';
 
 interface NavbarProps {
   quoteCount: number;
@@ -18,7 +19,7 @@ export const Navbar: React.FC<NavbarProps> = ({
 
   const navLinks = [
     { label: 'Nosotros', href: '#nosotros' },
-    { label: 'Productos (30)', href: '#productos' },
+    { label: `Productos (${PRODUCTS.length})`, href: '#productos' },
     { label: 'Distrigomez Emprende', href: '#emprende' },
     { label: 'Contáctanos', href: '#contacto' }
   ];
