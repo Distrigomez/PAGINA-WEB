@@ -107,3 +107,8 @@ fuentes: [../AGENTS.md, ../DOCS/, ../PAGINA WEB/]
 - Se añadieron “Ampolla de Semilla de Lino (Kaya Profesional)” y “Bombonera Tratamiento Capilar Cebolla & Ajo (Kaya Profesional)” al catálogo, con sus activos adjuntos `IMG_3227.PNG` y `IMG_3226.PNG`.
 - Las etiquetas muestran, respectivamente, caja de 12 unidades x 15 ml con protección térmica y bombonera de 2.000 ml. No se incorporaron ingredientes ni precio en las fichas; la presentación se oculta en cotización mayorista.
 - Se conservaron originales en `DOCS/` y se guardaron copias exactas en la carpeta técnica de activos. `npm run build` y `npm run lint` pasaron; la vista previa local muestra las dos fichas y sus imágenes.
+
+## [2026-11-10] Git | envío del catálogo actualizado
+
+- Commit `b2aad2c` creado con autoría local DISTRIGOMEZ y enviado a `origin/main`.
+- El envío incluye las dos fichas nuevas, sus copias técnicas de imagen y actualizaciones wiki. Los originales de `DOCS/` quedaron fuera del repositorio; el sitio no se publicó.
