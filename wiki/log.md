@@ -63,3 +63,12 @@ fuentes: [../AGENTS.md, ../DOCS/, ../PAGINA WEB/]
 - Guardada la fuente en `DOCS/IMG_3221.PNG` y su copia técnica en `PAGINA WEB/public/assets/aistudio/IMG_3221.PNG`; SHA-256 idéntico a la imagen recibida: `08FDA1B39EABAA33AB229F207640930FAEE3AA0E5460989AEAB8A32FA0BAE9E4`.
 - Actualizados nombre, descripción conservadora e imagen según la etiqueta; quitada la descripción anterior no respaldada. Se conservó el precio existente y se ocultó la presentación en texto de cotización mayorista. El arte muestra 450 ml; el tamaño 1.000 ml que ya constaba en la ficha sigue pendiente de confirmación.
 - Compilación y lint no disponibles porque faltan `vite` y `tsc`; revisión visual en vista previa pendiente.
+
+## [2026-11-10] catálogo y privacidad | corrección y activos nuevos
+
+- La cliente aclaró que el tratamiento Maxi-Loe es de 2.000 ml y `IMG_3179.PNG` es Maxi-Loe Sellante Galón. Se separaron las fichas, se restauró para el tratamiento el arte `IMG_3149.PNG` y se vinculó el sellante a `IMG_3179_1.PNG`.
+- Añadidos Maxi-Loe Liss Pasos 1 y 3, shampoo y mascarilla Zanahoria & Argán y Ultra Reestructurante. `IMG_3184.PNG` actualiza la ficha existente de Cascada Revitalizante con ácido hialurónico.
+- Los originales siguen en `DOCS/`; se copiaron solo activos técnicos elegidos. Las fichas nuevas omiten ingredientes y precios, y ocultan presentación textual en cotización mayorista.
+- El navbar muestra `Productos` sin cantidad de inventario y la paleta pública de Nosotros fue retirada conservando estilos internos de marca. Se conserva el conteo de artículos seleccionados para cotizar porque representa la selección del cliente.
+- `npm run build` y `npm run lint` pasaron. La vista local estrecha mostró las fichas añadidas y la sección Nosotros sin la paleta. Se vio desbordamiento horizontal; queda por investigar. No hubo publicación.
+- Filtros bajo el destacado, paginación de 8 productos y aclaración del simulador siguen pendientes de instrucción expresa; las propuestas A–F esperan verificación y aprobación.

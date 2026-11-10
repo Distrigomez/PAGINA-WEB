@@ -135,11 +135,11 @@ export const Hero: React.FC<HeroProps> = ({ onSelectProduct }) => {
                   Bombonera de rizos 2.000ml
                 </button>
                 <button
-                  onClick={() => onSelectProduct('tratamiento-galon-maxi-loe')}
+                  onClick={() => onSelectProduct('tratamiento-maxi-loe-2000ml')}
                   className="px-3.5 py-1.5 text-xs font-semibold bg-emerald-50 hover:bg-emerald-600 text-emerald-900 hover:text-white rounded-lg transition-colors border border-emerald-300/80 flex items-center gap-1.5 shadow-sm"
                 >
                   <Sparkles className="w-3.5 h-3.5 text-emerald-600 group-hover:text-white" />
-                  Galón Maxi-Loe 3.800ml
+                  Maxi-Loe 2.000 ml
                 </button>
                 <button
                   onClick={() => onSelectProduct('kit-maxi-loe-liss-3pasos')}

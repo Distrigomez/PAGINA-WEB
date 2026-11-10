@@ -141,7 +141,7 @@ export const AboutSection: React.FC = () => {
                 </div>
               </div>
 
-              {/* Official Logo & Color Palette Brand Card */}
+              {/* Official Logo Brand Card */}
               <div className="bg-gradient-to-br from-pink-50 via-white to-purple-50 p-6 rounded-2xl border border-pink-200/80 shadow-sm flex flex-col items-center text-center space-y-4">
                 <div className="flex items-center gap-3">
                   <img
@@ -155,23 +155,6 @@ export const AboutSection: React.FC = () => {
                   </div>
                 </div>
 
-                <div className="w-full pt-3 border-t border-pink-100">
-                  <span className="text-[11px] font-bold uppercase tracking-wider text-neutral-500 block mb-2">
-                    Paleta Oficial de Colores Distrigomez
-                  </span>
-                  <div className="rounded-xl overflow-hidden border border-neutral-200/60 shadow-inner bg-white p-2">
-                    <img
-                      src="/public/assets/aistudio/Paleta_de_colores_ba2919bf.PNG"
-                      alt="Paleta de Colores Distrigomez: Fucsia principal #EC0A8C, Morado #A84D8A, Negro #000000, Blanco #FFFFFF, Fucsia oscuro #B5006B"
-                      className="w-full h-auto object-contain mx-auto"
-                    />
-                  </div>
-                  <div className="flex items-center justify-center gap-2 mt-2 text-[10px] text-neutral-500 font-mono">
-                    <span className="inline-block w-2.5 h-2.5 rounded-full bg-[#EC0A8C]" /> #EC0A8C
-                    <span className="inline-block w-2.5 h-2.5 rounded-full bg-[#A84D8A]" /> #A84D8A
-                    <span className="inline-block w-2.5 h-2.5 rounded-full bg-[#B5006B]" /> #B5006B
-                  </div>
-                </div>
               </div>
             </div>
           </div>

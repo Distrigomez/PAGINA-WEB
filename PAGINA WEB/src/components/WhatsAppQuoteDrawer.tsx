@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Product, PRODUCTS } from '../data/distrigomezData';
+import { Product } from '../data/distrigomezData';
 import { X, MessageCircle, Plus, Minus, Trash2, ShoppingBag, ArrowRight } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
 
@@ -64,7 +64,7 @@ Quiero cotizar mi pedido con los siguientes datos:
 *Ciudad de despacho:* ${customerCity || 'Por definir'}
 *Modalidad:* ${typeLabel}
 
-*Productos seleccionados (${PRODUCTS.length} referencias disponibles):*${orderListText}
+*Productos seleccionados:*${orderListText}
 
 Quedo atento(a) a precios, disponibilidad y valor del flete. ¡Muchas gracias!`;
 
@@ -114,14 +114,14 @@ Quedo atento(a) a precios, disponibilidad y valor del flete. ¡Muchas gracias!`;
               </div>
               <h4 className="text-sm font-bold text-neutral-900">Tu lista está vacía</h4>
               <p className="text-xs text-neutral-500 max-w-xs mx-auto">
-                Explora nuestro catálogo de {PRODUCTS.length} productos capilares y agrega las referencias que deseas cotizar por WhatsApp.
+                Explora el catálogo y agrega las referencias que deseas cotizar por WhatsApp.
               </p>
               <a
                 href="#productos"
                 onClick={onClose}
                 className="inline-flex items-center gap-1.5 px-4 py-2 text-xs font-semibold text-white bg-[#EC0A8C] rounded-lg mt-2"
               >
-                Ver los {PRODUCTS.length} productos
+                Ver catálogo
                 <ArrowRight className="w-3.5 h-3.5" />
               </a>
             </div>

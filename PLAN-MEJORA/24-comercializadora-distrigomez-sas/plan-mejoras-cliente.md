@@ -31,8 +31,8 @@ La captura adjunta muestra la vista de Google AI Studio. El código local está 
 
 ### 1. Etiqueta de Productos en el navbar
 
-- [ ] Cambiar la etiqueta visible `Productos (30)` por `Productos`, sin mostrar la cantidad.
-- [ ] Comprobar el enlace y su versión móvil.
+- [x] Cambiar la etiqueta visible del navbar a `Productos`, sin mostrar la cantidad del catálogo.
+- [x] Comprobar la etiqueta y el acceso al catálogo en la vista local estrecha.
 
 **Interpretación provisional:** se conserva el resto de enlaces del navbar y solo se quita el conteo del enlace Productos. Si la solicitud significa dejar Productos como único enlace del menú, confirmar antes de implementarlo.
 
@@ -51,10 +51,10 @@ La captura adjunta muestra la vista de Google AI Studio. El código local está 
 
 ### 3. Quitar la paleta visible de la página
 
-- [ ] Localizar la sección pública que presenta la paleta oficial, sus muestras y sus códigos de color; retirarla de la landing.
-- [ ] Buscar otras menciones o imágenes públicas de la paleta y retirarlas también.
-- [ ] Conservar intactos el original de `DOCS/` y los colores internos necesarios para mantener la identidad visual del diseño.
-- [ ] Revisar la página local en escritorio y móvil para confirmar que no quede publicada la paleta.
+- [x] Localizar la sección pública que presentaba la paleta oficial, sus muestras y sus códigos de color; retirarla de la landing.
+- [x] Buscar otras menciones o imágenes públicas de la paleta y retirarlas también.
+- [x] Conservar intactos el original de `DOCS/` y los colores internos necesarios para mantener la identidad visual del diseño.
+- [x] Revisar la sección Nosotros en la vista local estrecha; la paleta y sus códigos ya no aparecen.
 
 **Quedará comprobado cuando:** la página ya no muestre la sección, los códigos ni una imagen de la paleta, y el diseño de marca siga usando sus estilos.
 
@@ -103,18 +103,21 @@ Estas ideas **no están aprobadas para implementación**. Primero se revisará e
 
 ## Aprobación y registro
 
-- [ ] Agregar/actualizar la ficha del decolorante Kaya con Plex, hasta 9 tonos, usando `DOCS/IMG_3178.PNG`; omitir ingredientes y no mostrar la presentación en la cotización al por mayor. No se añadió precio. Implementado; falta compilar y revisar visualmente.
+- [x] Agregar/actualizar la ficha del decolorante Kaya con Plex, hasta 9 tonos, usando `DOCS/IMG_3178.PNG`; omitir ingredientes y no mostrar la presentación en la cotización al por mayor. No se añadió precio. Compila y aparece en la vista local.
 
-- **Registro 2026-11-10 — producto autorizado:** se actualizó la ficha ya existente del catálogo y se copió la imagen exacta a `PAGINA WEB/public/assets/aistudio/IMG_3178.PNG`. Se quitó contenido no comprobado de la ficha. El peso de 500 g aún se ve impreso en la foto del envase. La verificación de compilación y visual está pendiente porque faltan dependencias (`node_modules/`).
+- **Registro 2026-11-10 — producto autorizado:** se actualizó la ficha ya existente del catálogo y se copió la imagen exacta a `PAGINA WEB/public/assets/aistudio/IMG_3178.PNG`. Se quitó contenido no comprobado de la ficha. El peso de 500 g aún se ve impreso en la foto del envase. Build y lint pasan.
 
-- [ ] Agregar Maxi-Loe Liss Tratamiento Alisador Capilar Paso 2 con la imagen enviada `IMG_3219.PNG`; omitir ingredientes y texto de presentación en cotizaciones mayoristas. Implementado; falta compilar y revisar visualmente. El arte adjunto muestra ingredientes y 1.000 ml.
+- [x] Agregar Maxi-Loe Liss Tratamiento Alisador Capilar Paso 2 con la imagen enviada `IMG_3219.PNG`; omitir ingredientes y texto de presentación en cotizaciones mayoristas. El arte adjunto muestra ingredientes y 1.000 ml.
 
-- **Registro 2026-11-10 — Maxi-Loe Liss:** se añadió una ficha nueva, distinta del kit Maxi-Loe de 3 pasos que ya existía. El original recibido se conserva en `DOCS/IMG_3219.PNG`, con copia técnica en `PAGINA WEB/public/assets/aistudio/IMG_3219.PNG`; no se añadió precio. Falta compilar y revisar visualmente.
+- **Registro 2026-11-10 — Maxi-Loe Liss:** se añadió una ficha nueva, distinta del kit Maxi-Loe de 3 pasos que ya existía. El original recibido se conserva en `DOCS/IMG_3219.PNG`, con copia técnica en `PAGINA WEB/public/assets/aistudio/IMG_3219.PNG`; no se añadió precio.
 
-- [ ] Actualizar la imagen de la ficha existente del Shampoo Kaya Cebolla & Ajo con `IMG_3221.PNG`; ocultar presentación en cotización mayorista y retirar ingredientes del texto descriptivo. Implementado; falta compilar y revisar visualmente. Confirmar si sigue vigente la presentación de 1.000 ml.
+- [x] Actualizar la imagen de la ficha existente del Shampoo Kaya Cebolla & Ajo con `IMG_3221.PNG`; ocultar presentación en cotización mayorista y retirar ingredientes del texto descriptivo. Confirmar si sigue vigente la presentación de 1.000 ml.
 
 - **Registro 2026-11-10 — Shampoo Cebolla & Ajo:** actualizados nombre, descripción e imagen usando la etiqueta adjunta. Se conservó el precio previo. La imagen confirma 450 ml; el 1.000 ml que figuraba en el catálogo queda pendiente de confirmación.
 
 - **Decisiones pendientes:** interpretación del navbar y aprobación individual de las oportunidades A–F.
-- **Estado de implementación:** los cuatro cambios originales de la sección “Cambios solicitados por la cliente” siguen pendientes; las fichas del decolorante y de Maxi-Loe Liss fueron añadidas, y la imagen del shampoo fue actualizada por las solicitudes respectivas. La verificación técnica y visual queda pendiente. Las oportunidades A–F siguen sujetas a verificación y aprobación.
+- **Estado de implementación (2026-11-10):** completados y revisados el rótulo del navbar sin conteo y el retiro de la paleta de la landing. Los filtros debajo del destacado, la paginación de 8 y el aviso del simulador siguen pendientes de instrucción expresa. Las oportunidades A–F siguen sujetas a verificación y aprobación.
+- [x] Agregar Maxi-Loe Liss Paso 1 y Paso 3, shampoo y mascarilla Zanahoria & Argán, Maxi-Loe Sellante Galón y Ultra Reestructurante; actualizar el arte del Cascada Revitalizante con ácido hialurónico.
+- **Corrección de la cliente (2026-11-10):** el Maxi-Loe que aparecía como galón corresponde a 2.000 ml; la imagen enviada como galón es un Sellante distinto. Se separaron ambas fichas y no se inventaron precios.
+- **Verificación:** `npm run build` y `npm run lint` pasan. En pantalla estrecha se observó desplazamiento horizontal; queda pendiente corregirlo.
 - **Registro de avance:** anotar aquí fecha, punto autorizado, archivo cambiado, comprobaciones y resultado después de cada paso. Marcar `[x]` solo tras verificar.

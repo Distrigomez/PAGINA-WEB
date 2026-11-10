@@ -422,24 +422,29 @@ export const PRODUCTS: Product[] = [
   },
   // 22
   {
-    id: 'tratamiento-galon-maxi-loe',
-    name: 'Tratamiento Capilar Galón Maxi-Loe Hidratación Profunda & Brillo Intenso',
+    id: 'tratamiento-maxi-loe-2000ml',
+    name: 'Tratamiento Capilar Maxi-Loe Hidratación Profunda & Brillo Intenso',
     category: 'tratamientos',
     categoryLabel: 'Línea Profesional & Salón',
-    presentation: 'Galón 3.800 mL / 4 Litros',
-    shortDesc: 'Tratamiento capilar en galón garrafa profesional. Hidratación profunda y brillo intenso con keratina, aminoácidos, argán y aloe vera.',
-    fullDesc: 'Tratamiento capilar profesional Maxi-Loe en presentación Galón (garrafa de alto rendimiento). Formulado para lavacabezas y salones de belleza de alto flujo. Combina keratina y aminoácidos con el poder nutritivo del aceite de argán y el aloe vera para brindar hidratación profunda y brillo intenso.',
-    benefits: [
-      'Presentación Galón profesional de máximo rendimiento para salones y lavacabezas',
-      'Fórmula con Keratina y Aminoácidos de absorción rápida',
-      'Enriquecido con aceite puro de Argán y Aloe Vera hidratante',
-      'Aporta hidratación profunda y brillo intenso efecto espejo',
-      'Excelente rentabilidad y costo por servicio en peluquería'
-    ],
+    presentation: 'Bombonera 2.000 ml',
+    shortDesc: 'Tratamiento capilar Maxi-Loe para hidratación profunda y brillo intenso.',
+    fullDesc: 'Tratamiento capilar Maxi-Loe para hidratación profunda y brillo intenso.',
+    benefits: [],
+    hidePresentationForWholesale: true,
     isFeatured: true,
-    image: '/public/assets/aistudio/IMG_3149_b8543999.PNG',
-    suggestedWholesalePrice: 48000,
-    suggestedRetailPrice: 85000
+    image: '/assets/aistudio/IMG_3149_b8543999.PNG',
+  },
+  {
+    id: 'maxi-loe-sellante-galon',
+    name: 'Maxi-Loe Sellante Galón',
+    category: 'tratamientos',
+    categoryLabel: 'Línea Maxi-Loe',
+    presentation: 'Galón',
+    shortDesc: 'Sellante capilar Maxi-Loe para hidratación profunda y brillo intenso.',
+    fullDesc: 'La etiqueta identifica esta presentación Maxi-Loe como sellante y destaca hidratación profunda y brillo intenso.',
+    benefits: [],
+    hidePresentationForWholesale: true,
+    image: '/assets/aistudio/IMG_3179_1.PNG'
   },
   // 23
   {
@@ -458,7 +463,7 @@ export const PRODUCTS: Product[] = [
       'Ideal para servicios de hidratación y revitalización exprés en salón'
     ],
     isFeatured: true,
-    image: '/public/assets/aistudio/IMG_3186_d177665e.PNG',
+    image: '/assets/aistudio/IMG_3184_b850a2d1.PNG',
     suggestedWholesalePrice: 28000,
     suggestedRetailPrice: 48000
   },
@@ -605,6 +610,71 @@ export const PRODUCTS: Product[] = [
     benefits: [],
     hidePresentationForWholesale: true,
     image: '/assets/aistudio/IMG_3219.PNG'
+  },
+  // 32
+  {
+    id: 'maxi-loe-liss-shampoo-paso-1-1000ml',
+    name: 'Maxi-Loe Liss Shampoo Limpieza Profunda Paso 1 (Kaya Profesional)',
+    category: 'shampoo',
+    categoryLabel: 'Alisado Capilar',
+    presentation: 'Botella 1.000 ml',
+    shortDesc: 'Shampoo Maxi-Loe Liss de limpieza profunda, Paso 1.',
+    fullDesc: 'El envase identifica el producto como shampoo de limpieza profunda, brillo intenso y Paso 1.',
+    benefits: [],
+    hidePresentationForWholesale: true,
+    image: '/assets/aistudio/IMG_3218.PNG'
+  },
+  // 33
+  {
+    id: 'maxi-loe-liss-mascarilla-paso-3-1000ml',
+    name: 'Maxi-Loe Liss Mascarilla Tratamiento Capilar Paso 3 (Kaya Profesional)',
+    category: 'tratamientos',
+    categoryLabel: 'Alisado Capilar',
+    presentation: 'Botella 1.000 ml',
+    shortDesc: 'Mascarilla tratamiento capilar Maxi-Loe Liss, Paso 3.',
+    fullDesc: 'El envase identifica el producto como mascarilla capilar Paso 3 e indica hidratación, reparación, nutrición y brillo.',
+    benefits: [],
+    hidePresentationForWholesale: true,
+    image: '/assets/aistudio/IMG_3217.PNG'
+  },
+  // 34
+  {
+    id: 'shampoo-hidratante-zanahoria-argan-450ml',
+    name: 'Shampoo Hidratante sin Sal Zanahoria & Argán (Kaya Profesional)',
+    category: 'shampoo',
+    categoryLabel: 'Línea Zanahoria & Argán',
+    presentation: 'Envase 450 ml',
+    shortDesc: 'Shampoo hidratante sin sal Kaya Profesional de la línea Zanahoria & Argán.',
+    fullDesc: 'El envase identifica el producto como shampoo hidratante sin sal y libre de sal y parabenos.',
+    benefits: [],
+    hidePresentationForWholesale: true,
+    image: '/assets/aistudio/IMG_3181_1.PNG'
+  },
+  // 35
+  {
+    id: 'mascarilla-reconstructora-zanahoria-argan-600ml',
+    name: 'Mascarilla Reconstructora Zanahoria & Argán (Kaya Profesional)',
+    category: 'tratamientos',
+    categoryLabel: 'Línea Zanahoria & Argán',
+    presentation: 'Pote 600 ml',
+    shortDesc: 'Mascarilla reconstructora Kaya Profesional para tratamiento capilar.',
+    fullDesc: 'La etiqueta identifica el producto como tratamiento capilar reconstructor y destaca fuerza y resistencia para la fibra capilar.',
+    benefits: [],
+    hidePresentationForWholesale: true,
+    image: '/assets/aistudio/IMG_3180_1.PNG'
+  },
+  // 36
+  {
+    id: 'ultra-reestructurante-kaya-12und',
+    name: 'Ultra Reestructurante (Kaya Profesional)',
+    category: 'tratamientos',
+    categoryLabel: 'Tratamientos Capilares',
+    presentation: 'Caja 12 und x 15 ml',
+    shortDesc: 'Tratamiento capilar reestructurante Kaya Profesional.',
+    fullDesc: 'El empaque identifica el producto como tratamiento capilar reestructurante, ideal para cabello seco.',
+    benefits: [],
+    hidePresentationForWholesale: true,
+    image: '/assets/aistudio/IMG_3185.PNG'
   }
 ];
 
