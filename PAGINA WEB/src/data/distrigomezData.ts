@@ -687,6 +687,32 @@ export const PRODUCTS: Product[] = [
     benefits: [],
     hidePresentationForWholesale: true,
     image: '/assets/aistudio/IMG_3185.PNG'
+  },
+  // 39
+  {
+    id: 'ampolla-semilla-de-lino-kaya-12und',
+    name: 'Ampolla de Semilla de Lino (Kaya Profesional)',
+    category: 'tratamientos',
+    categoryLabel: 'Tratamientos Capilares',
+    presentation: 'Caja 12 unidades x 15 ml',
+    shortDesc: 'Ampolla de tratamiento capilar con semilla de lino para protección térmica.',
+    fullDesc: 'Ampolla Kaya Profesional de semilla de lino. La caja indica tratamiento capilar y protección térmica, con 12 unidades de 15 ml.',
+    benefits: [],
+    hidePresentationForWholesale: true,
+    image: '/assets/aistudio/IMG_3227.PNG'
+  },
+  // 40
+  {
+    id: 'bombonera-cebolla-ajo-kaya-2000ml',
+    name: 'Bombonera Tratamiento Capilar Cebolla & Ajo (Kaya Profesional)',
+    category: 'tratamientos',
+    categoryLabel: 'Línea Cebolla & Ajo',
+    presentation: 'Envase 2.000 ml',
+    shortDesc: 'Tratamiento capilar Kaya Profesional de Cebolla & Ajo.',
+    fullDesc: 'Tratamiento capilar Kaya Profesional Cebolla & Ajo en bombonera; la etiqueta indica contenido de 2.000 ml.',
+    benefits: [],
+    hidePresentationForWholesale: true,
+    image: '/assets/aistudio/IMG_3226.PNG'
   }
 ];
 

@@ -101,3 +101,9 @@ fuentes: [../AGENTS.md, ../DOCS/, ../PAGINA WEB/]
 - No se usa “Cascada Revitalizante” en el nombre o descripción. La imagen todavía imprime ese texto; se registró como pendiente cambiar el arte cuando la cliente comparta una versión correcta.
 - Build y lint quedan por repetir tras el ajuste.
 - Verificación posterior a la corrección de presentación: `npm run build` y `npm run lint` pasaron; la vista local muestra “Ampolla de Ácido Hialurónico” y “Caja 12 unidades x 15 ml”. El rótulo “Cascada Revitalizante” todavía está dentro de la imagen, pendiente de recibir un arte correcto.
+
+## [2026-11-10] catálogo | ampolla de semilla de lino y bombonera Cebolla & Ajo
+
+- Se añadieron “Ampolla de Semilla de Lino (Kaya Profesional)” y “Bombonera Tratamiento Capilar Cebolla & Ajo (Kaya Profesional)” al catálogo, con sus activos adjuntos `IMG_3227.PNG` y `IMG_3226.PNG`.
+- Las etiquetas muestran, respectivamente, caja de 12 unidades x 15 ml con protección térmica y bombonera de 2.000 ml. No se incorporaron ingredientes ni precio en las fichas; la presentación se oculta en cotización mayorista.
+- Se conservaron originales en `DOCS/` y se guardaron copias exactas en la carpeta técnica de activos. `npm run build` y `npm run lint` pasaron; la vista previa local muestra las dos fichas y sus imágenes.
