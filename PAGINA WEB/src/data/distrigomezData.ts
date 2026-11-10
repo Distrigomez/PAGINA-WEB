@@ -463,9 +463,21 @@ export const PRODUCTS: Product[] = [
       'Ideal para servicios de hidratación y revitalización exprés en salón'
     ],
     isFeatured: true,
-    image: '/assets/aistudio/IMG_3184_b850a2d1.PNG',
+    image: '/assets/aistudio/IMG_3186_d177665e.PNG',
     suggestedWholesalePrice: 28000,
     suggestedRetailPrice: 48000
+  },
+  {
+    id: 'ampolla-acido-hialuronico-cascada-15ml',
+    name: 'Ampolla Ácido Hialurónico Cascada Revitalizante (Kaya Profesional)',
+    category: 'tratamientos',
+    categoryLabel: 'Tratamientos Capilares',
+    presentation: 'Ampolla individual 15 ml',
+    shortDesc: 'Ampolla individual de tratamiento capilar hidratante con ácido hialurónico.',
+    fullDesc: 'Ampolla individual Kaya Profesional Cascada Revitalizante con ácido hialurónico. El envase indica que es un tratamiento capilar hidratante.',
+    benefits: [],
+    hidePresentationForWholesale: true,
+    image: '/assets/aistudio/IMG_3184_b850a2d1.PNG'
   },
   // 24
   {

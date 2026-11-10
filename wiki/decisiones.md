@@ -10,7 +10,7 @@ fuentes: [../AGENTS.md, ../DOCS/]
 # Decisiones
 
 - **2026-11-10 — Separar presentaciones Maxi-Loe.** La cliente aclaró que el tratamiento corresponde a 2.000 ml y `IMG_3179.PNG` es un Sellante Galón distinto. El tratamiento conserva la imagen `IMG_3149.PNG`; no se añadió precio. Fuente: corrección explícita de la cliente; ver [[documentos-y-activos]].
-- **2026-11-10 — Clasificar IMG_3184/3185.** `IMG_3184.PNG` coincide con la ficha existente de Cascada Revitalizante con ácido hialurónico y actualiza su imagen; `IMG_3185.PNG` presenta Ultra Reestructurante y recibe ficha nueva. Fuente: rótulos visibles en las imágenes adjuntas.
+- **2026-11-10 — Clasificar IMG_3184/3185.** Tras la aclaración de la cliente, `IMG_3184.PNG` se asigna a una ficha nueva para la ampolla individual de ácido hialurónico; la caja x12 Cascada Revitalizante conserva `IMG_3186.PNG`. `IMG_3185.PNG` presenta Ultra Reestructurante y tiene ficha independiente. Fuente: aclaración de la cliente y rótulos de las imágenes.
 
 - **2026-11-09 — Mantener `DOCS/` en su ubicación actual.** Ya contiene los originales; Windows no distingue mayúsculas en nombres de carpeta y moverla para cambiar casing alteraría rutas. La wiki la documenta como fuente `Docs/`. Fuente: estado observado del directorio y regla de preservar originales. [[documentos-y-activos]]
 - **2026-11-09 — No extraer el ZIP sobre una carpeta existente.** La exportación ya está disponible en `PAGINA WEB/`, coincide con el ZIP y sus 64 rutas fueron validadas dentro de un destino aislado; conservar el ZIP original sin cambios evita sobrescrituras. Fuente: inventario local.

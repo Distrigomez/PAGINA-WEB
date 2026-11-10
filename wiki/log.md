@@ -82,3 +82,9 @@ fuentes: [../AGENTS.md, ../DOCS/, ../PAGINA WEB/]
 ## [2026-11-10] fuentes | reenvío exacto de IMG_3184
 
 - La cliente volvió a adjuntar `IMG_3184.PNG`. SHA-256 coincide con `DOCS/IMG_3184.PNG` y la copia técnica ya registrada. Se confirmó la ficha de Cascada Revitalizante con ácido hialurónico y no se creó una ficha duplicada ni cambió el sitio.
+
+## [2026-11-10] catálogo | corrección de IMG_3184
+
+- La cliente aclaró que `IMG_3184.PNG` corresponde a la ampolla individual de ácido hialurónico, no a la caja x12. Corregida la asignación: se restauró `IMG_3186.PNG` en la ficha de la caja existente y se creó la ficha separada “Ampolla Ácido Hialurónico Cascada Revitalizante (Kaya Profesional)” con el arte `IMG_3184.PNG`.
+- Presentación de la ampolla: individual, 15 ml, según la cliente y el arte. No se añadió precio ni lista de ingredientes; la presentación se omite en cotización mayorista. La imagen también muestra la caja x12, por lo que un recorte que enfoque la ampolla queda como mejora opcional.
+- Se actualizaron el inventario de activos, estado, pendientes, decisiones y checklist. Pendiente compilar y revisar visualmente esta ficha.
