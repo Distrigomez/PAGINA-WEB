@@ -56,3 +56,10 @@ fuentes: [../AGENTS.md, ../DOCS/, ../PAGINA WEB/]
 - Añadido `IMG_3219.PNG` como fuente original en `DOCS/` y como copia técnica en `PAGINA WEB/public/assets/aistudio/`; las tres copias (Downloads, DOCS y activo técnico) tienen el mismo SHA-256 `7B7231ADA644AAA0313AB46D2F2E239A24BEEDB695F95D5CB4230B4E931F090F`.
 - Añadida ficha “Maxi-Loe Liss Tratamiento Alisador Capilar Paso 2 (Kaya Profesional)” como producto 31, distinta del kit de tres pasos que ya existía. Sin ingredientes ni precio en la ficha, y sin presentación en texto de cotización mayorista. Las palabras “argán”, “aloe vera”, “aminoácidos” y “1.000 ml” siguen visibles en el arte del envase.
 - Actualizados conteos dinámicos del catálogo, navbar y cotizador para 31 productos. El punto queda pendiente de compilar y revisar visualmente; `node_modules/` no está instalado.
+
+## [2026-11-10] catálogo | imagen de Shampoo Cebolla & Ajo
+
+- **Supuesto de intención:** la imagen se interpretó como actualización de la ficha existente “Shampoo Cebolla y Ajo”, porque coincide en producto; no se creó un duplicado.
+- Guardada la fuente en `DOCS/IMG_3221.PNG` y su copia técnica en `PAGINA WEB/public/assets/aistudio/IMG_3221.PNG`; SHA-256 idéntico a la imagen recibida: `08FDA1B39EABAA33AB229F207640930FAEE3AA0E5460989AEAB8A32FA0BAE9E4`.
+- Actualizados nombre, descripción conservadora e imagen según la etiqueta; quitada la descripción anterior no respaldada. Se conservó el precio existente y se ocultó la presentación en texto de cotización mayorista. El arte muestra 450 ml; el tamaño 1.000 ml que ya constaba en la ficha sigue pendiente de confirmación.
+- Compilación y lint no disponibles porque faltan `vite` y `tsc`; revisión visual en vista previa pendiente.

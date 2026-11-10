@@ -13,7 +13,7 @@ fuentes: [../PAGINA WEB/package.json, ../PAGINA WEB/README.md, ../distrigomez-sa
 
 - **Confirmado:** existe una landing exportada de Google AI Studio en `PAGINA WEB/`. Usa Vite, React 19 y TypeScript; conserva secciones de portada, catálogo, empresa, emprendimiento, cobertura y contacto.
 - **Confirmado:** el ZIP `../distrigomez-salud-y-belleza.zip` contiene la misma aplicación que `PAGINA WEB/`; sus 64 entradas pasan la comprobación de confinamiento de rutas. El ZIP se conserva sin modificar.
-- **Confirmado (2026-11-10):** el catálogo tiene 31 productos. Se actualizó la ficha existente del decolorante Kaya y se agregó Maxi-Loe Liss Paso 2 a partir de imágenes adjuntas, sin precio ni texto de ingredientes/presentación en mensajes mayoristas. El sitio aún no se compiló ni se revisó en navegador.
+- **Confirmado (2026-11-10):** el catálogo tiene 31 productos. Se actualizó la ficha del decolorante, se agregó Maxi-Loe Liss Paso 2 y se reemplazó la imagen del Shampoo Kaya Cebolla & Ajo con el arte adjunto. El sitio aún no se compiló ni se revisó en navegador.
 - **Pendiente de revisión:** autenticación, perfiles, cotizaciones, testimonios, afirmaciones de beneficios y precios en el código podrían ser demostrativos o requerir autorización; no deben tratarse como aprobados por el solo hecho de estar en la exportación.
 
 ## Entorno y Git
@@ -27,6 +27,7 @@ fuentes: [../PAGINA WEB/package.json, ../PAGINA WEB/README.md, ../distrigomez-sa
 - **Confirmado:** creado y versionado `PLAN-MEJORA/24-comercializadora-distrigomez-sas/plan-mejoras-cliente.md` con los cuatro puntos solicitados y oportunidades sujetas a aprobación. No se modificó la landing.
 - **Confirmado (2026-11-10):** ficha actualizada para “Decolorante Kaya Profesional con Plex, 9 tonos”; se quitó precio, ingredientes y claims no respaldados. La presentación se oculta en cotizaciones mayoristas; el arte adjunto conserva el peso impreso en el envase. Ver [[documentos-y-activos]] y el checklist.
 - **Confirmado (2026-11-10):** añadido “Maxi-Loe Liss Tratamiento Alisador Capilar Paso 2” con base en `DOCS/IMG_3219.PNG`; no se añadió precio y se omiten ingredientes y presentación de la ficha y texto de cotización mayorista. La imagen conserva textos de ingredientes y 1.000 ml impresos.
+- **Confirmado (2026-11-10):** actualizada la imagen de “Shampoo Hidratante sin Sal Cebolla & Ajo (Kaya Profesional)” con `DOCS/IMG_3221.PNG`. Se retiró la descripción anterior no respaldada y se ocultó la presentación textual en cotización mayorista; no se tocó el precio previamente registrado.
 - **Bloqueado durante la instalación:** se inició `npm install`, pero no produjo salida ni creó archivos durante más de un minuto; se interrumpió. La causa no quedó confirmada (el registro npm configurado no respondió dentro de ese lapso). No hay dependencias ni `package-lock.json`. Repetir cuando npm pueda completar la instalación y luego ejecutar `npm run build` y `npm run lint` antes de arrancar la vista previa local.
 
 ## Publicación y comprobaciones

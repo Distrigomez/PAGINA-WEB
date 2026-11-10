@@ -111,6 +111,10 @@ Estas ideas **no están aprobadas para implementación**. Primero se revisará e
 
 - **Registro 2026-11-10 — Maxi-Loe Liss:** se añadió una ficha nueva, distinta del kit Maxi-Loe de 3 pasos que ya existía. El original recibido se conserva en `DOCS/IMG_3219.PNG`, con copia técnica en `PAGINA WEB/public/assets/aistudio/IMG_3219.PNG`; no se añadió precio. Falta compilar y revisar visualmente.
 
+- [ ] Actualizar la imagen de la ficha existente del Shampoo Kaya Cebolla & Ajo con `IMG_3221.PNG`; ocultar presentación en cotización mayorista y retirar ingredientes del texto descriptivo. Implementado; falta compilar y revisar visualmente. Confirmar si sigue vigente la presentación de 1.000 ml.
+
+- **Registro 2026-11-10 — Shampoo Cebolla & Ajo:** actualizados nombre, descripción e imagen usando la etiqueta adjunta. Se conservó el precio previo. La imagen confirma 450 ml; el 1.000 ml que figuraba en el catálogo queda pendiente de confirmación.
+
 - **Decisiones pendientes:** interpretación del navbar y aprobación individual de las oportunidades A–F.
-- **Estado de implementación:** los cuatro cambios originales de la sección “Cambios solicitados por la cliente” siguen pendientes; las fichas del decolorante y de Maxi-Loe Liss fueron añadidas o actualizadas por las solicitudes respectivas. La verificación técnica y visual queda pendiente. Las oportunidades A–F siguen sujetas a verificación y aprobación.
+- **Estado de implementación:** los cuatro cambios originales de la sección “Cambios solicitados por la cliente” siguen pendientes; las fichas del decolorante y de Maxi-Loe Liss fueron añadidas, y la imagen del shampoo fue actualizada por las solicitudes respectivas. La verificación técnica y visual queda pendiente. Las oportunidades A–F siguen sujetas a verificación y aprobación.
 - **Registro de avance:** anotar aquí fecha, punto autorizado, archivo cambiado, comprobaciones y resultado después de cada paso. Marcar `[x]` solo tras verificar.

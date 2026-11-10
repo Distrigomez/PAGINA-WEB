@@ -20,20 +20,16 @@ export const PRODUCTS: Product[] = [
   // 1
   {
     id: 'shampoo-cebolla-ajo',
-    name: 'Shampoo Cebolla y Ajo',
+    name: 'Shampoo Hidratante sin Sal Cebolla & Ajo (Kaya Profesional)',
     category: 'shampoo',
     categoryLabel: 'Línea Cebolla & Ajo',
     presentation: 'Envase 450 ml / 1000 ml',
-    shortDesc: 'Estimula el crecimiento folicular, frena la caída y fortalece la hebra desde la raíz sin dejar olor.',
-    fullDesc: 'Fórmula enriquecida con extracto natural de cebolla roja y ajo desodorizado. Actúa directamente sobre el folículo piloso acelerando el ciclo de crecimiento capilar, mejorando la circulación del cuero cabelludo y previniendo el quiebre.',
-    benefits: [
-      'Estimula el crecimiento rápido y saludable',
-      'Reduce notablemente la caída por quiebre',
-      'Limpia en profundidad sin resecar la fibra capilar',
-      'Fórmula 100% desodorizada con fragancia floral fresca'
-    ],
+    shortDesc: 'Shampoo hidratante sin sal Kaya Profesional de la línea Cebolla & Ajo.',
+    fullDesc: 'El envase identifica el producto como shampoo hidratante sin sal, con cebolla y ajo, y señala que es libre de sal y parabenos.',
+    benefits: [],
+    hidePresentationForWholesale: true,
     isFeatured: true,
-    image: '/src/assets/images/product_shampoo_cebolla_ajo_1794079444759.jpg',
+    image: '/assets/aistudio/IMG_3221.PNG',
     suggestedWholesalePrice: 13500,
     suggestedRetailPrice: 24000
   },
