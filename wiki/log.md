@@ -78,3 +78,7 @@ fuentes: [../AGENTS.md, ../DOCS/, ../PAGINA WEB/]
 - Commit `c3e4bec` creado con autoría local DISTRIGOMEZ y enviado a `origin/main`.
 - `DOCS/` y los originales empresariales no se incluyeron. El push contiene código, copias de imágenes seleccionadas, la wiki, checklist, `package.json` y lockfile.
 - El sitio sigue sin publicar; GitHub solo recibió el código.
+
+## [2026-11-10] fuentes | reenvío exacto de IMG_3184
+
+- La cliente volvió a adjuntar `IMG_3184.PNG`. SHA-256 coincide con `DOCS/IMG_3184.PNG` y la copia técnica ya registrada. Se confirmó la ficha de Cascada Revitalizante con ácido hialurónico y no se creó una ficha duplicada ni cambió el sitio.
