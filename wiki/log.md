@@ -88,3 +88,9 @@ fuentes: [../AGENTS.md, ../DOCS/, ../PAGINA WEB/]
 - La cliente aclaró que `IMG_3184.PNG` corresponde a la ampolla individual de ácido hialurónico, no a la caja x12. Corregida la asignación: se restauró `IMG_3186.PNG` en la ficha de la caja existente y se creó la ficha separada “Ampolla Ácido Hialurónico Cascada Revitalizante (Kaya Profesional)” con el arte `IMG_3184.PNG`.
 - Presentación de la ampolla: individual, 15 ml, según la cliente y el arte. No se añadió precio ni lista de ingredientes; la presentación se omite en cotización mayorista. La imagen también muestra la caja x12, por lo que un recorte que enfoque la ampolla queda como mejora opcional.
 - Se actualizaron el inventario de activos, estado, pendientes, decisiones y checklist. Pendiente compilar y revisar visualmente esta ficha.
+
+## [2026-11-10] catálogo | retirar nombre incorrecto de la ampolla
+
+- La cliente precisó que la ampolla individual de ácido hialurónico no lleva el nombre “Cascada Revitalizante”. Se retiró del identificador, nombre y descripción de su ficha; la caja x12 mantiene su ficha distinta.
+- La imagen fuente `IMG_3184.PNG` conserva el texto incorrecto impreso. No se alteró el original ni se retocó la etiqueta; queda pendiente sustituir el arte cuando haya una foto correcta.
+- Comprobaciones tras este ajuste: `npm run build` y `npm run lint` pasaron. Revisión visual local mostró el nombre corregido; el arte todavía tiene el rótulo impreso que la cliente indica que no corresponde. Queda pendiente recibir una imagen correcta. No se publicó el sitio.
