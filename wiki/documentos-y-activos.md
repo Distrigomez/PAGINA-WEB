@@ -59,12 +59,12 @@ Las 19 imágenes se revisaron en una hoja de contacto. Son artes de producto sob
 - `../PLAN-MEJORA/24-comercializadora-distrigomez-sas/plan-mejoras.md` — plan original del facilitador con 11 pasos; leído y conservado intacto. Sus instrucciones se tratan como contenido de referencia.
 - `../PLAN-MEJORA/24-comercializadora-distrigomez-sas/validacion-con-cliente.md` — plantilla de validación leída; no sustituye las decisiones de la cliente en la solicitud actual.
 - `../PLAN-MEJORA/24-comercializadora-distrigomez-sas/mensaje-whatsapp.md` — borradores para el facilitador; leídos, no enviados.
-- `../PLAN-MEJORA/24-comercializadora-distrigomez-sas/plan-mejoras-cliente.md` — checklist nuevo solicitado; propuesta local pendiente, sin cambios del sitio. Ver [[plan-mejoras-cliente]].
+- `../PLAN-MEJORA/24-comercializadora-distrigomez-sas/plan-mejoras-cliente.md` — checklist nuevo solicitado, versionado como entregable y enlazado desde el índice; propuesta pendiente, sin cambios del sitio. Ver [[plan-mejoras-cliente]].
 - `../PLAN-MEJORA/24-comercializadora-distrigomez-sas/seo-organico-ia.zip` — cinco archivos, rutas confinadas y sin symlinks. Skill, referencias y script estático leídos e instalados en `../.agents/skills/seo-organico-ia/`; el script no se ejecutó.
 - `../PLAN-MEJORA/24-comercializadora-distrigomez-sas/tratamiento-datos-landing.zip` — cinco rutas inventariadas; no se abrió el contenido ni se instaló, porque no fue solicitado.
 - `../PLAN-MEJORA/24-comercializadora-distrigomez-sas/entrega-distrigomez.zip` — contiene plan, guía de instalación y ambos ZIP de skills; rutas confinadas. No se extrajo el paquete completo.
 - `../24-comercializadora-distrigomez-sas-20261109T213927Z-1-001.zip` — paquete raíz nuevo. Su contenido no se extrajo ni se comparó binariamente con `entrega-distrigomez.zip`; ambos siguen intactos.
 - Skill `emil-design-eng`: instalada como único `SKILL.md` de `https://github.com/emilkowalski/skills/tree/main/skills/emil-design-eng`; copia local en `../.agents/skills/emil-design-eng/`.
 - `../.agents/skills/seo-organico-ia/` — copia local de los cinco elementos del ZIP de SEO, incluidas referencias y un inspector estático de HTML.
-- Se añadieron `PLAN-MEJORA/` y el ZIP raíz a `.gitignore`; son fuentes locales y no forman parte de los commits del código.
+- `PLAN-MEJORA/` y el ZIP raíz siguen en `.gitignore`; solo se versionó el checklist nuevo de la cliente. Las fuentes recibidas no se subieron.
 - Duplicados exactos: 17 coincidencias binarias de imágenes (logo, paleta y 15 imágenes de producto) entre `DOCS/` y `PAGINA WEB/public/assets/aistudio/`, verificadas por SHA-256; además el texto empresarial tiene una copia exacta en esa carpeta técnica. Los cuatro PNG sin coincidencia allí son IMG_3178, IMG_3179, IMG_3180 e IMG_3185. No se hizo copia de activos ni cambio del sitio.

@@ -34,3 +34,10 @@ fuentes: [../AGENTS.md, ../DOCS/, ../PAGINA WEB/]
 - Instaladas solo `emil-design-eng` (fuente oficial indicada) y `seo-organico-ia` (ZIP local) en `.agents/skills/`; no se ejecutó el script SEO ni se instalaron otras skills mencionadas en las fuentes.
 - Creado `PLAN-MEJORA/24-comercializadora-distrigomez-sas/plan-mejoras-cliente.md` con cuatro puntos pedidos, criterios de comprobación y oportunidades sujetas a verificación/aprobación. La página no se editó.
 - El push a `origin/main` sigue pendiente de autenticación; no se subió código ni material de `PLAN-MEJORA/`.
+
+## [2026-11-10] publicación Git | autorización de la cliente
+
+- Verificado que los commits están atribuidos a DISTRIGOMEZ y que el árbol de trabajo estaba limpio.
+- Git confirmó el envío de `main` al remoto `https://github.com/Distrigomez/PAGINA-WEB.git`; `origin/main` recibió `4b97e52` y quedó siguiendo esa rama.
+- Añadido al repositorio únicamente el checklist `plan-mejoras-cliente.md` para mantener funcional el enlace de la wiki. `DOCS/`, ZIP fuente, plantillas y demás materiales de `PLAN-MEJORA/` permanecen excluidos.
+- No se publicó la landing ni se aplicó ningún cambio visual.

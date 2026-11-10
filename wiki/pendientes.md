@@ -2,7 +2,7 @@
 tipo: pendientes
 estado: abierto
 creado: 2026-11-09
-actualizado: 2026-11-09
+actualizado: 2026-11-10
 tags: [pendientes, verificacion]
 fuentes: [../DOCS/, ../PAGINA WEB/src/]
 ---
@@ -23,8 +23,6 @@ fuentes: [../DOCS/, ../PAGINA WEB/src/]
 - **Bloqueado durante la instalación:** `npm install` quedó sin salida ni archivos creados por más de un minuto y se interrumpió; no hay lockfile ni `node_modules/`. La causa no quedó confirmada. Repetir npm install cuando pueda completarse; no instalar dependencias globales.
 - **Pendiente:** ejecutar compilación y lint. Scripts declarados: `npm run build`, `npm run lint`.
 - **Pendiente:** arrancar `npm run dev` y comprobar la landing en escritorio/móvil, navegación, botones y cargas de imágenes. Algunas rutas apuntan a `/src/assets/...` o `/public/assets/...`; validar en navegador, no corregir a ciegas.
-- **Pendiente:** completar autenticación de GitHub con Git Credential Manager o un token de acceso personal introducido solo en un prompt seguro; no enviar tokens por chat. Luego repetir `git push -u origin main` y verificar la rama remota.
 - **Pendiente:** averiguar si el sitio está publicado. No se realizó publicación ni acceso remoto.
 - **Pendiente:** extraer texto estructurado del PDF si se requiere búsqueda literal; se revisó visualmente el render de sus siete páginas, pero no se encontró `pdftotext` para extracción automatizada.
 - **Pendiente:** revisar el ZIP `tratamiento-datos-landing.zip` si la cliente lo solicita; se identificó en el paquete, pero no se instaló ni se inspeccionó su contenido.
-- **Pendiente:** decidir si el plan local debe incluirse en el futuro envío a GitHub; por ahora `PLAN-MEJORA/` permanece excluida para proteger los materiales recibidos sin revisión.
