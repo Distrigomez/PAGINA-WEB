@@ -41,3 +41,10 @@ fuentes: [../AGENTS.md, ../DOCS/, ../PAGINA WEB/]
 - Git confirmó el envío de `main` al remoto `https://github.com/Distrigomez/PAGINA-WEB.git`; `origin/main` recibió `4b97e52` y quedó siguiendo esa rama.
 - Añadido al repositorio únicamente el checklist `plan-mejoras-cliente.md` para mantener funcional el enlace de la wiki. `DOCS/`, ZIP fuente, plantillas y demás materiales de `PLAN-MEJORA/` permanecen excluidos.
 - No se publicó la landing ni se aplicó ningún cambio visual.
+
+## [2026-11-10] catálogo | decolorante Kaya con Plex
+
+- Actualizada la ficha existente del decolorante para reflejar el producto de `DOCS/IMG_3178.PNG`: Decolorante Silver en polvo Kaya Profesional, Plex Technology, uso profesional y hasta 9 tonos. Se quitaron ingredientes, precios y afirmaciones no comprobadas.
+- Añadida una copia técnica exacta de la imagen en `PAGINA WEB/public/assets/aistudio/IMG_3178.PNG`; hash SHA-256 comprobado contra el original. Las cotizaciones mayoristas omiten la presentación en el texto y en la etiqueta del catálogo/detalle; el peso continúa impreso en la foto.
+- Actualizados `Hero`, `ProductsCatalog`, detalle, destacado y lista de cotización de WhatsApp. El catálogo sigue mostrando 30 fichas porque este producto ya tenía una ficha previa.
+- Intentados `npm run build` y `npm run lint`: ambos no pudieron iniciar porque no están instalados `vite` y `tsc` (`node_modules/` no existe). La vista previa y revisión visual quedan pendientes; los otros cuatro cambios del checklist siguen sin aplicar.

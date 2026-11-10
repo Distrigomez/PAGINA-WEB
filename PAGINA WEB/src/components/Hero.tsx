@@ -1,11 +1,13 @@
 import React from 'react';
 import { MessageCircle, ArrowRight, Sparkles, ShieldCheck, Truck, Users } from 'lucide-react';
+import { useAuth } from '../context/AuthContext';
 
 interface HeroProps {
   onSelectProduct: (productId: string) => void;
 }
 
 export const Hero: React.FC<HeroProps> = ({ onSelectProduct }) => {
+  const { user } = useAuth();
   return (
     <section className="relative overflow-hidden bg-gradient-to-b from-pink-50/40 via-white to-white pt-8 pb-16 lg:pt-14 lg:pb-24 border-b border-neutral-100">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -234,9 +236,9 @@ export const Hero: React.FC<HeroProps> = ({ onSelectProduct }) => {
               >
                 <div className="w-16 h-16 rounded-xl overflow-hidden shrink-0 shadow-sm border border-pink-200">
                   <img
-                    src="/public/assets/aistudio/21_abd13ca9.PNG"
-                    alt="Polvo Decolorante Plex 500g"
-                    className="w-full h-full object-cover object-center group-hover:scale-110 transition-transform duration-300"
+                    src="/assets/aistudio/IMG_3178.PNG"
+                    alt="Decolorante Silver Kaya Profesional con Plex Technology"
+                    className="w-full h-full object-contain bg-white object-center group-hover:scale-[1.03] transition-transform duration-200"
                   />
                 </div>
                 <div className="min-w-0 pr-1">
@@ -246,9 +248,11 @@ export const Hero: React.FC<HeroProps> = ({ onSelectProduct }) => {
                   <span className="text-xs font-extrabold text-neutral-900 block truncate group-hover:text-[#EC0A8C] transition-colors">
                     Decolorante Plex 9 Tonos
                   </span>
-                  <span className="text-[11px] text-neutral-500 block">
-                    500g · Aclara y protege
-                  </span>
+                  {!user?.isWholesaleVerified && (
+                    <span className="text-[11px] text-neutral-500 block">
+                      Hasta 9 tonos
+                    </span>
+                  )}
                 </div>
               </div>
 

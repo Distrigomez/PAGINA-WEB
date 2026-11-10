@@ -1,5 +1,5 @@
 import React from 'react';
-import { MessageCircle, Sparkles, Shield, ArrowRight, CheckCircle2 } from 'lucide-react';
+import { MessageCircle, Sparkles, ArrowRight, CheckCircle2 } from 'lucide-react';
 import { Product } from '../data/distrigomezData';
 
 interface ProductSpotlightProps {
@@ -14,7 +14,7 @@ export const ProductSpotlight: React.FC<ProductSpotlightProps> = ({
   onAddToQuote
 }) => {
   const waLink = `https://wa.me/573156557198?text=${encodeURIComponent(
-    'Hola Distrigomez, me interesa cotizar el Polvo Decolorante Silver con Plex 9 Tonos Kaya Profesional x 500g al por mayor para mi salón.'
+    `Hola Distrigomez, me interesa cotizar el ${product.name} al por mayor.`
   )}`;
 
   return (
@@ -47,26 +47,26 @@ export const ProductSpotlight: React.FC<ProductSpotlightProps> = ({
           </div>
 
           <p className="text-sm text-neutral-300 leading-relaxed max-w-xl">
-            Aclaración extrema y segura. La tecnología Plex protege y refuerza la estructura interna del cabello durante el proceso químico, permitiendo rubios más limpios y resistentes. Fórmula compacta 1:2 sin desprendimiento de polvo volátil.
+            Decolorante Silver en polvo de uso profesional. El empaque indica Plex Technology y aclaración de hasta 9 tonos.
           </p>
 
           {/* Key Advantages */}
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-1">
             <div className="flex items-center gap-2.5 text-xs text-neutral-200">
               <CheckCircle2 className="w-4 h-4 text-[#EC0A8C] shrink-0" />
-              <span>Aclara hasta 9 tonos reales</span>
+              <span>Aclaración de hasta 9 tonos</span>
             </div>
             <div className="flex items-center gap-2.5 text-xs text-neutral-200">
               <CheckCircle2 className="w-4 h-4 text-[#EC0A8C] shrink-0" />
-              <span>Protección activa con Plex</span>
+              <span>Plex Technology</span>
             </div>
             <div className="flex items-center gap-2.5 text-xs text-neutral-200">
               <CheckCircle2 className="w-4 h-4 text-[#A84D8A] shrink-0" />
-              <span>Acción silver anti-amarillo</span>
+              <span>Decolorante Silver en polvo</span>
             </div>
             <div className="flex items-center gap-2.5 text-xs text-neutral-200">
               <CheckCircle2 className="w-4 h-4 text-[#A84D8A] shrink-0" />
-              <span>Pote profesional de 500 gramos</span>
+              <span>Uso profesional</span>
             </div>
           </div>
 
@@ -101,9 +101,9 @@ export const ProductSpotlight: React.FC<ProductSpotlightProps> = ({
           >
             {/* The real user photograph with its silky fuchsia background completely filling the space */}
             <img
-              src="/public/assets/aistudio/21_abd13ca9.PNG"
-              alt="Polvo Decolorante con Plex Kaya Profesional 500g"
-              className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500"
+              src={product.image}
+              alt="Envase decolorante Silver Kaya Profesional con Plex Technology"
+              className="w-full h-full object-contain object-center bg-white p-2 group-hover:scale-[1.02] transition-transform duration-200"
               referrerPolicy="no-referrer"
             />
 
@@ -115,9 +115,7 @@ export const ProductSpotlight: React.FC<ProductSpotlightProps> = ({
                 <span className="text-[10px] font-bold text-[#EC0A8C] uppercase tracking-wider block">
                   Poder aclarante 9 tonos
                 </span>
-                <span className="text-xs font-extrabold block">
-                  Pote 500 g / 17.6 oz
-                </span>
+                <span className="text-xs font-extrabold block">Consultar disponibilidad</span>
               </div>
               <span className="text-xs font-bold text-[#EC0A8C] flex items-center gap-1">
                 Consultar

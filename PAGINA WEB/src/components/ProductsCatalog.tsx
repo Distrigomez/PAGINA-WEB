@@ -18,6 +18,7 @@ export const ProductsCatalog: React.FC<ProductsCatalogProps> = ({
   const [selectedCategory, setSelectedCategory] = useState<string>('all');
   const [searchQuery, setSearchQuery] = useState<string>('');
   const { user, isAuthenticated, openAuthModal } = useAuth();
+  const isVerifiedWholesale = Boolean(isAuthenticated && user?.isWholesaleVerified);
 
   const filteredProducts = PRODUCTS.filter((product) => {
     const matchesCategory =
@@ -145,9 +146,9 @@ export const ProductsCatalog: React.FC<ProductsCatalogProps> = ({
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 sm:gap-7">
             {filteredProducts.map((product) => {
               const inQuote = isInQuote(product.id);
-              const waLink = `https://wa.me/573156557198?text=${encodeURIComponent(
-                `Hola Distrigomez, me gustaría consultar precio y disponibilidad del producto: ${product.name} (${product.presentation}).`
-              )}`;
+              const includePresentation = !(isVerifiedWholesale && product.hidePresentationForWholesale);
+              const productRequest = `Hola Distrigomez, me gustaría consultar precio y disponibilidad del producto: ${product.name}${includePresentation ? ` (${product.presentation})` : ''}.`;
+              const waLink = `https://wa.me/573156557198?text=${encodeURIComponent(productRequest)}`;
 
               return (
                 <div
@@ -163,7 +164,7 @@ export const ProductsCatalog: React.FC<ProductsCatalogProps> = ({
                       src={product.image}
                       alt={product.name}
                       className={`w-full h-full ${
-                        product.id !== 'polvo-decolorante-plex-500g' && product.image.startsWith('/public/assets/aistudio/')
+                        product.image.startsWith('/assets/aistudio/') || product.image.startsWith('/public/assets/aistudio/')
                           ? 'object-contain p-2 bg-white drop-shadow-sm group-hover:scale-105'
                           : 'object-cover group-hover:scale-105'
                       } object-center transition-transform duration-500`}
@@ -171,9 +172,11 @@ export const ProductsCatalog: React.FC<ProductsCatalogProps> = ({
                     />
 
                     {/* Wholesale badge or Presentation tag */}
-                    <div className="absolute top-3 left-3 bg-white/95 backdrop-blur-sm px-2.5 py-1 rounded-md text-[11px] font-semibold text-neutral-800 shadow-sm border border-neutral-200/50">
-                      {product.presentation}
-                    </div>
+                    {includePresentation && (
+                      <div className="absolute top-3 left-3 bg-white/95 backdrop-blur-sm px-2.5 py-1 rounded-md text-[11px] font-semibold text-neutral-800 shadow-sm border border-neutral-200/50">
+                        {product.presentation}
+                      </div>
+                    )}
 
                     {product.isFeatured && (
                       <div className="absolute top-3 right-3 bg-[#EC0A8C] text-white px-2 py-0.5 rounded-md text-[10px] font-bold uppercase tracking-wider shadow-sm flex items-center gap-1">

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Product } from '../data/distrigomezData';
 import { X, MessageCircle, Plus, Check, CheckCircle2, Sparkles } from 'lucide-react';
+import { useAuth } from '../context/AuthContext';
 
 interface ProductDetailModalProps {
   product: Product | null;
@@ -15,16 +16,18 @@ export const ProductDetailModal: React.FC<ProductDetailModalProps> = ({
   onAddToQuote,
   isInQuote
 }) => {
+  const { user } = useAuth();
   if (!product) return null;
 
+  const includePresentation = !(user?.isWholesaleVerified && product.hidePresentationForWholesale);
+
   const waLink = `https://wa.me/573156557198?text=${encodeURIComponent(
-    `Hola Distrigomez, me interesa conocer más detalles y precios de: ${product.name} (${product.presentation}).`
+    `Hola Distrigomez, me interesa conocer más detalles y precios de: ${product.name}${includePresentation ? ` (${product.presentation})` : ''}.`
   )}`;
 
   const isBottleProduct =
-    product.id !== 'polvo-decolorante-plex-500g' &&
-    product.image.startsWith('/public/assets/aistudio/');
-  const isPolvoDecolorante = product.id === 'polvo-decolorante-plex-500g';
+    product.image.startsWith('/public/assets/aistudio/') ||
+    product.image.startsWith('/assets/aistudio/');
 
   return (
     <div className="fixed inset-0 z-50 overflow-y-auto bg-black/60 backdrop-blur-sm flex items-center justify-center p-4">
@@ -61,9 +64,11 @@ export const ProductDetailModal: React.FC<ProductDetailModalProps> = ({
               } object-center transition-all duration-300`}
               referrerPolicy="no-referrer"
             />
-            <div className="absolute top-3 left-3 bg-white/95 backdrop-blur-md px-2.5 py-1 rounded-md text-[11px] font-semibold text-neutral-800 shadow-sm border border-neutral-200/50">
-              {product.presentation}
-            </div>
+            {includePresentation && (
+              <div className="absolute top-3 left-3 bg-white/95 backdrop-blur-md px-2.5 py-1 rounded-md text-[11px] font-semibold text-neutral-800 shadow-sm border border-neutral-200/50">
+                {product.presentation}
+              </div>
+            )}
             {product.isFeatured && (
               <div className="absolute top-3 right-3 bg-[#EC0A8C] text-white px-2 py-0.5 rounded-md text-[10px] font-bold uppercase tracking-wider shadow-sm">
                 Destacado
@@ -88,7 +93,7 @@ export const ProductDetailModal: React.FC<ProductDetailModalProps> = ({
               </p>
 
               {/* Benefits list */}
-              <div>
+              {product.benefits.length > 0 && <div>
                 <h4 className="text-xs font-bold text-neutral-900 uppercase tracking-wider mb-2 flex items-center gap-1.5">
                   <Sparkles className="w-3.5 h-3.5 text-[#EC0A8C]" />
                   Beneficios Clave
@@ -101,7 +106,7 @@ export const ProductDetailModal: React.FC<ProductDetailModalProps> = ({
                     </li>
                   ))}
                 </ul>
-              </div>
+              </div>}
 
             </div>
 

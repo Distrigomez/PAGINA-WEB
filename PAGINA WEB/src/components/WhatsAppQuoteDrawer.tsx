@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Product } from '../data/distrigomezData';
+import { Product, PRODUCTS } from '../data/distrigomezData';
 import { X, MessageCircle, Plus, Minus, Trash2, ShoppingBag, ArrowRight } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
 
@@ -46,7 +46,9 @@ export const WhatsAppQuoteDrawer: React.FC<WhatsAppQuoteDrawerProps> = ({
     const summaryItems: string[] = [];
 
     items.forEach((item, index) => {
-      orderListText += `\n${index + 1}. ${item.product.name} (${item.product.presentation}) - Cantidad: ${item.quantity} unidades`;
+      const includePresentation = customerType !== 'mayor' || !item.product.hidePresentationForWholesale;
+      const presentation = includePresentation ? ` (${item.product.presentation})` : '';
+      orderListText += `\n${index + 1}. ${item.product.name}${presentation} - Cantidad: ${item.quantity} unidades`;
       summaryItems.push(`${item.quantity}x ${item.product.name}`);
     });
 
@@ -112,14 +114,14 @@ Quedo atento(a) a precios, disponibilidad y valor del flete. ¡Muchas gracias!`;
               </div>
               <h4 className="text-sm font-bold text-neutral-900">Tu lista está vacía</h4>
               <p className="text-xs text-neutral-500 max-w-xs mx-auto">
-                Explora nuestro catálogo de 30 productos capilares y agrega las referencias que deseas cotizar por WhatsApp.
+                Explora nuestro catálogo de {PRODUCTS.length} productos capilares y agrega las referencias que deseas cotizar por WhatsApp.
               </p>
               <a
                 href="#productos"
                 onClick={onClose}
                 className="inline-flex items-center gap-1.5 px-4 py-2 text-xs font-semibold text-white bg-[#EC0A8C] rounded-lg mt-2"
               >
-                Ver los 30 productos
+                Ver los {PRODUCTS.length} productos
                 <ArrowRight className="w-3.5 h-3.5" />
               </a>
             </div>
@@ -210,9 +212,11 @@ Quedo atento(a) a precios, disponibilidad y valor del flete. ¡Muchas gracias!`;
                       <div className="text-xs font-bold text-neutral-900 truncate">
                         {item.product.name}
                       </div>
-                      <div className="text-[11px] text-neutral-500">
-                        {item.product.presentation}
-                      </div>
+                      {(customerType !== 'mayor' || !item.product.hidePresentationForWholesale) && (
+                        <div className="text-[11px] text-neutral-500">
+                          {item.product.presentation}
+                        </div>
+                      )}
                     </div>
 
                     <div className="flex items-center gap-1.5 shrink-0">

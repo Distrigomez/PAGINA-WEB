@@ -4,6 +4,7 @@ export interface Product {
   category: 'capilar' | 'tratamientos' | 'shampoo' | 'kits';
   categoryLabel: string;
   presentation: string;
+  hidePresentationForWholesale?: boolean;
   shortDesc: string;
   fullDesc: string;
   benefits: string[];
@@ -179,23 +180,15 @@ export const PRODUCTS: Product[] = [
   // 9
   {
     id: 'polvo-decolorante-plex-500g',
-    name: 'Polvo Decolorante con Plex x500g (Kaya Profesional)',
+    name: 'Decolorante Kaya Profesional con Plex, 9 tonos',
     category: 'tratamientos',
     categoryLabel: 'Coloración & Decoloración',
     presentation: 'Pote 500 g / 17.6 oz',
-    shortDesc: 'Aclara hasta 9 tonos con Plex Technology. Fórmula compacta 1:2 de uso profesional que cuida la fibra capilar.',
-    fullDesc: 'Decolorante Silver en Polvo Kaya Profesional de máximo poder aclarante de hasta 9 tonos. Su tecnología Plex avanzada protege y refuerza la estructura interna del cabello durante el proceso de decoloración, minimizando el quiebre y la porosidad. Fórmula compacta homogénea 1:2 (dust-free) con acción matizadora silver anti-amarillo.',
-    benefits: [
-      'Poder aclarante supremo de hasta 9 tonos reales',
-      'Plex Technology que preserva la integridad y fuerza de la hebra',
-      'Fórmula compacta 1:2 libre de polvo volátil (dust-free)',
-      'Acción silver neutralizante contra reflejos cálidos y dorados',
-      'Presentación profesional de 500 gramos de alto rendimiento'
-    ],
-    isFeatured: true,
-    image: '/public/assets/aistudio/21_abd13ca9.PNG',
-    suggestedWholesalePrice: 39000,
-    suggestedRetailPrice: 68000
+    shortDesc: 'Decolorante Silver en polvo con Plex Technology y aclaración de hasta 9 tonos.',
+    fullDesc: 'Decolorante Silver en polvo Kaya Profesional. El empaque indica Plex Technology, uso profesional y aclaración de hasta 9 tonos.',
+    benefits: [],
+    hidePresentationForWholesale: true,
+    image: '/assets/aistudio/IMG_3178.PNG'
   },
   // 10
   {

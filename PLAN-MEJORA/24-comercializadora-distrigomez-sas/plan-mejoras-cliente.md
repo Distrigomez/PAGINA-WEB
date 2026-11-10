@@ -2,7 +2,7 @@
 tipo: checklist-de-mejoras
 estado: propuesta-pendiente-de-aprobacion
 creado: 2026-11-09
-actualizado: 2026-11-09
+actualizado: 2026-11-10
 tags: [landing, checklist, propuesta]
 fuentes:
   - solicitud-de-la-cliente-2026-11-09
@@ -103,6 +103,10 @@ Estas ideas **no están aprobadas para implementación**. Primero se revisará e
 
 ## Aprobación y registro
 
+- [x] Agregar/actualizar la ficha del decolorante Kaya con Plex, hasta 9 tonos, usando `DOCS/IMG_3178.PNG`; omitir ingredientes y no mostrar la presentación en la cotización al por mayor. No se añadió precio.
+
+- **Registro 2026-11-10 — producto autorizado:** se actualizó la ficha ya existente del catálogo y se copió la imagen exacta a `PAGINA WEB/public/assets/aistudio/IMG_3178.PNG`. Se quitó contenido no comprobado de la ficha. El peso de 500 g aún se ve impreso en la foto del envase. La verificación de compilación y visual está pendiente porque faltan dependencias (`node_modules/`).
+
 - **Decisiones pendientes:** interpretación del navbar y aprobación individual de las oportunidades A–F.
-- **Estado de implementación:** ninguno de los cambios de página de este plan se ha aplicado.
+- **Estado de implementación:** los cuatro cambios originales de la sección “Cambios solicitados por la cliente” siguen pendientes; la ficha del producto se actualizó por autorización expresa del 2026-11-10. Las oportunidades A–F siguen sujetas a verificación y aprobación.
 - **Registro de avance:** anotar aquí fecha, punto autorizado, archivo cambiado, comprobaciones y resultado después de cada paso. Marcar `[x]` solo tras verificar.
