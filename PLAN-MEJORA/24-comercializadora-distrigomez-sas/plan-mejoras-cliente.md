@@ -103,7 +103,7 @@ Estas ideas **no están aprobadas para implementación**. Primero se revisará e
 
 ## Aprobación y registro
 
-- [x] Agregar/actualizar la ficha del decolorante Kaya con Plex, hasta 9 tonos, usando `DOCS/IMG_3178.PNG`; omitir ingredientes y no mostrar la presentación en la cotización al por mayor. No se añadió precio.
+- [ ] Agregar/actualizar la ficha del decolorante Kaya con Plex, hasta 9 tonos, usando `DOCS/IMG_3178.PNG`; omitir ingredientes y no mostrar la presentación en la cotización al por mayor. No se añadió precio. Implementado; falta compilar y revisar visualmente.
 
 - **Registro 2026-11-10 — producto autorizado:** se actualizó la ficha ya existente del catálogo y se copió la imagen exacta a `PAGINA WEB/public/assets/aistudio/IMG_3178.PNG`. Se quitó contenido no comprobado de la ficha. El peso de 500 g aún se ve impreso en la foto del envase. La verificación de compilación y visual está pendiente porque faltan dependencias (`node_modules/`).
 

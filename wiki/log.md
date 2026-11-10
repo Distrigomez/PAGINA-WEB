@@ -48,3 +48,4 @@ fuentes: [../AGENTS.md, ../DOCS/, ../PAGINA WEB/]
 - Añadida una copia técnica exacta de la imagen en `PAGINA WEB/public/assets/aistudio/IMG_3178.PNG`; hash SHA-256 comprobado contra el original. Las cotizaciones mayoristas omiten la presentación en el texto y en la etiqueta del catálogo/detalle; el peso continúa impreso en la foto.
 - Actualizados `Hero`, `ProductsCatalog`, detalle, destacado y lista de cotización de WhatsApp. El catálogo sigue mostrando 30 fichas porque este producto ya tenía una ficha previa.
 - Intentados `npm run build` y `npm run lint`: ambos no pudieron iniciar porque no están instalados `vite` y `tsc` (`node_modules/` no existe). La vista previa y revisión visual quedan pendientes; los otros cuatro cambios del checklist siguen sin aplicar.
+- Commit `8813674` creado con autoría local DISTRIGOMEZ y enviado a `origin/main`. El repositorio quedó sincronizado; no se publicó el sitio.
