@@ -94,3 +94,10 @@ fuentes: [../AGENTS.md, ../DOCS/, ../PAGINA WEB/]
 - La cliente precisó que la ampolla individual de ácido hialurónico no lleva el nombre “Cascada Revitalizante”. Se retiró del identificador, nombre y descripción de su ficha; la caja x12 mantiene su ficha distinta.
 - La imagen fuente `IMG_3184.PNG` conserva el texto incorrecto impreso. No se alteró el original ni se retocó la etiqueta; queda pendiente sustituir el arte cuando haya una foto correcta.
 - Comprobaciones tras este ajuste: `npm run build` y `npm run lint` pasaron. Revisión visual local mostró el nombre corregido; el arte todavía tiene el rótulo impreso que la cliente indica que no corresponde. Queda pendiente recibir una imagen correcta. No se publicó el sitio.
+
+## [2026-11-10] catálogo | unidad de venta de Ampolla Ácido Hialurónico
+
+- La cliente confirmó que el nombre del producto es “Ampolla de Ácido Hialurónico”, pero la unidad de venta es caja de 12 unidades x 15 ml, según el empaque. Se quitó “individual” de la ficha y se actualizó la presentación.
+- No se usa “Cascada Revitalizante” en el nombre o descripción. La imagen todavía imprime ese texto; se registró como pendiente cambiar el arte cuando la cliente comparta una versión correcta.
+- Build y lint quedan por repetir tras el ajuste.
+- Verificación posterior a la corrección de presentación: `npm run build` y `npm run lint` pasaron; la vista local muestra “Ampolla de Ácido Hialurónico” y “Caja 12 unidades x 15 ml”. El rótulo “Cascada Revitalizante” todavía está dentro de la imagen, pendiente de recibir un arte correcto.

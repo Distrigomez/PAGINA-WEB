@@ -117,7 +117,7 @@ Estas ideas **no están aprobadas para implementación**. Primero se revisará e
 
 - **Decisiones pendientes:** interpretación del navbar y aprobación individual de las oportunidades A–F.
 - **Estado de implementación (2026-11-10):** completados y revisados el rótulo del navbar sin conteo y el retiro de la paleta de la landing. Los filtros debajo del destacado, la paginación de 8 y el aviso del simulador siguen pendientes de instrucción expresa. Las oportunidades A–F siguen sujetas a verificación y aprobación.
-- [x] Agregar Maxi-Loe Liss Paso 1 y Paso 3, shampoo y mascarilla Zanahoria & Argán, Maxi-Loe Sellante Galón y Ultra Reestructurante. Actualizado: IMG_3184 es ampolla individual; la ficha de la caja x12 conserva su propio arte.
+- [x] Agregar Maxi-Loe Liss Paso 1 y Paso 3, shampoo y mascarilla Zanahoria & Argán, Maxi-Loe Sellante Galón y Ultra Reestructurante. `IMG_3184` se registra como Ampolla de Ácido Hialurónico en caja x12 de 15 ml.
 - **Corrección de la cliente (2026-11-10):** el Maxi-Loe que aparecía como galón corresponde a 2.000 ml; la imagen enviada como galón es un Sellante distinto. Se separaron ambas fichas y no se inventaron precios.
 - **Verificación:** `npm run build` y `npm run lint` pasan. En pantalla estrecha se observó desplazamiento horizontal; queda pendiente corregirlo.
 - **Registro de avance:** anotar aquí fecha, punto autorizado, archivo cambiado, comprobaciones y resultado después de cada paso. Marcar `[x]` solo tras verificar.

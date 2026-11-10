@@ -469,12 +469,12 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: 'ampolla-acido-hialuronico-kaya-15ml',
-    name: 'Ampolla individual de Ácido Hialurónico (Kaya Profesional)',
+    name: 'Ampolla de Ácido Hialurónico (Kaya Profesional)',
     category: 'tratamientos',
     categoryLabel: 'Tratamientos Capilares',
-    presentation: 'Ampolla individual 15 ml',
-    shortDesc: 'Ampolla individual de tratamiento capilar hidratante con ácido hialurónico.',
-    fullDesc: 'Ampolla individual Kaya Profesional con ácido hialurónico. El envase indica que es un tratamiento capilar hidratante.',
+    presentation: 'Caja 12 unidades x 15 ml',
+    shortDesc: 'Ampolla de tratamiento capilar hidratante con ácido hialurónico.',
+    fullDesc: 'Ampolla de tratamiento capilar hidratante Kaya Profesional con ácido hialurónico, presentada en caja de 12 unidades x 15 ml, según el empaque.',
     benefits: [],
     hidePresentationForWholesale: true,
     image: '/assets/aistudio/IMG_3184_b850a2d1.PNG'
