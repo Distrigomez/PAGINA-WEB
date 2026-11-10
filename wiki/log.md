@@ -72,3 +72,9 @@ fuentes: [../AGENTS.md, ../DOCS/, ../PAGINA WEB/]
 - El navbar muestra `Productos` sin cantidad de inventario y la paleta pública de Nosotros fue retirada conservando estilos internos de marca. Se conserva el conteo de artículos seleccionados para cotizar porque representa la selección del cliente.
 - `npm run build` y `npm run lint` pasaron. La vista local estrecha mostró las fichas añadidas y la sección Nosotros sin la paleta. Se vio desbordamiento horizontal; queda por investigar. No hubo publicación.
 - Filtros bajo el destacado, paginación de 8 productos y aclaración del simulador siguen pendientes de instrucción expresa; las propuestas A–F esperan verificación y aprobación.
+
+## [2026-11-10] Git | sincronización
+
+- Commit `c3e4bec` creado con autoría local DISTRIGOMEZ y enviado a `origin/main`.
+- `DOCS/` y los originales empresariales no se incluyeron. El push contiene código, copias de imágenes seleccionadas, la wiki, checklist, `package.json` y lockfile.
+- El sitio sigue sin publicar; GitHub solo recibió el código.
